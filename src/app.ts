@@ -9,7 +9,7 @@ const helper: Helper = new Helper('default', 'default');
 document.querySelector<HTMLDivElement>('#app').innerHTML = `
 <div id="container">
         <div id="encode-area">
-            <textarea autofocus id="encode-input" placeholder="要加密🔐的字符串"></textarea>
+            <textarea autofocus id="encode-input" placeholder="要编码🔐的字符串"></textarea>
             <button type="button" id="encode-copy-btn">
                 <svg id="encode-svg" x="1667574644478" viewBox="0 0 1024 1024" 
                      xmlns="http://www.w3.org/2000/svg" p-id="3035" width="200" height="200">
@@ -20,7 +20,7 @@ document.querySelector<HTMLDivElement>('#app').innerHTML = `
             </button>
         </div>
     <div id="decode-area">
-        <textarea id="decode-input" placeholder="要解密的字符串"></textarea>
+        <textarea id="decode-input" placeholder="要解码的字符串"></textarea>
         <button type="button" id="decode-copy-btn">
             <svg id="decode-svg" t="1667574644478" viewBox="0 0 1024 1024"
                  xmlns="http://www.w3.org/2000/svg" p-id="3035" width="200" height="200">
